@@ -1,0 +1,25 @@
+#/usr/local/bin/bash
+
+# Copy this file to config.sh and update variables as needed.
+
+# Path to the source file with the list of paths to test. One path per line, no quotes
+# Can be generated with the python script from https://gist.github.com/AO8/f721b6736c8a4805e99e377e72d3edbf
+# `pip install BeautifulSoup4`
+# `pip install requests`
+# `python3 crawler.py`
+SOURCE_PATHS_FILE=
+
+# Path to the temporary cleaned up (sorted and de-duped) file with the list of paths to test
+PATHS_FILE="paths-clean.txt"
+
+# File that contains BackstopJS config template
+BACKSTOP_CONFIG_TPL_FILE="backstop-tpl.json"
+
+# Resulting BackstopJS config file name
+BACKSTOP_CONFIG_FILE="backstop.json"
+
+# Reference domain to be used in BackstopJS scenarios
+REF_DOMAIN="https://example.com"
+
+# Test domain to be used in BackstopJS scenarios
+TEST_DOMAIN="https://test.example.com"
