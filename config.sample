@@ -13,7 +13,7 @@ SOURCE_PATHS_FILE=
 PATHS_FILE="paths-clean.txt"
 
 # File that contains BackstopJS config template
-BACKSTOP_CONFIG_TPL_FILE="backstop-tpl.json"
+BACKSTOP_CONFIG_TPL_FILE="backstop.tpl.json"
 
 # Resulting BackstopJS config file name
 BACKSTOP_CONFIG_FILE="backstop.json"
