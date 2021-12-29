@@ -3,3 +3,4 @@ paths-clean.txt
 backstop.json
 backstop_data
 config.sh
+*.tmp
